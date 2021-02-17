@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Created By Subarna Mainali -->
+<!-- Created By सुवर्ण मैनाली -->
 <html lang="en">
 
 <head>
@@ -32,7 +32,7 @@
                     <li><a href="#about" class="menu-btn">संक्षिप्त परिचय</a></li>
                     <li><a href="#services" class="menu-btn">गर्ने कामहरु</a></li>
                     <li><a href="#contact" class="menu-btn">सम्पर्क</a></li>
-                    <li><a href=" https://subarna200.github.io/eng/" class="menu-btn">ENG</a></li>
+                    <li><a href="https://subarna200.github.io/chitwan/" class="menu-btn">ENG</a></li>
                     
                     
                 </ul>
@@ -153,21 +153,21 @@
                 </div>
                 <div class="column right">
                     <div class="text">सन्देश पठाउनुहोस </div>
-                    <form action="#">
+                    <form id="contact-form" method="POST" action="https://formspree.io/f/mbjpekpw" >
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="नाम" required>
+                                <input type="text" name=name placeholder="नाम" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="इ-मेल" required>
+                                <input type="email" name=email placeholder="इ-मेल" required>
                             </div>
                         </div>
-                      <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="सन्देश.." required></textarea>
+
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name=message placeholder="सन्देश.." required></textarea>
                         </div>
-                        
                         <div class="button">
-                            <button type="submit">सन्देश पढ़ौनुहोस</button>
+                            <button type="submit" value="submit">सन्देश पढ़ौनुहोस</button>
                         </div>
                     </form>
                 </div>
